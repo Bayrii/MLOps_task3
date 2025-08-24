@@ -1,0 +1,17 @@
+[server]
+# if you don't want to start the default browser:
+headless = true
+# you will need this for local development:
+runOnSave = true
+# you will need this if running docker on windows host:
+fileWatcherType = "poll"
+
+[browser] # This ip and port will show in command prompt
+gatherUsageStats = false
+
+[theme]
+primaryColor="#ffd500"              # warm golden yellow (easier on eyes)
+backgroundColor="#1a0033"           # deep rich violet (less saturated)
+secondaryBackgroundColor="#142d4c"  # dark indigo-blue (pairs better)
+textColor="#e5e5e5"
+font="sans serif"
