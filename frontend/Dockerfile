@@ -13,7 +13,7 @@ RUN apt-get update -y && \
 WORKDIR /main
 
 # Copy only backend code
-COPY backend/ .
+COPY frontend/ .
 
 # Install Python dependencies
 RUN uv sync --no-dev
