@@ -1,8 +1,8 @@
 import requests
 import streamlit as st
 
-# Your FastAPI backend URL
-BACKEND_URL = "http://127.0.0.1:8000"  # Change if deployed
+#FastAPI backend URL
+BACKEND_URL = "http://backend:8000"  
 
 
 
